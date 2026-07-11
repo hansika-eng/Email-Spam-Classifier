@@ -57,19 +57,24 @@ Email-Spam-Detection/
 
 ### Home Page
 
-![Home](images/home.png)
+<img width="1912" height="917" alt="image" src="https://github.com/user-attachments/assets/112ee940-c6bd-442d-b892-11ab6fea788a" />
+
 
 ---
 
 ### Spam Email Detection
 
-![Spam](images/spam_prediction.png)
+<img width="1570" height="865" alt="image" src="https://github.com/user-attachments/assets/20a56f55-3129-45d6-aa74-37d285b7885c" />
+<img width="1911" height="881" alt="image" src="https://github.com/user-attachments/assets/40531148-483c-4349-a4d3-8de1b0cd016f" />
+
 
 ---
 
 ### Safe Email Detection
 
-![Safe](images/safe_prediction.png)
+<img width="1547" height="861" alt="image" src="https://github.com/user-attachments/assets/8f5172d4-5052-4aeb-a804-37445bfb9602" />
+
+
 
 ---
 
@@ -130,13 +135,13 @@ Streamlit Deployment
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Email-Spam-Detection.git
+git clone https://github.com/hansika-eng/Email-Spam-Classifier.git
 ```
 
 Move into the project
 
 ```bash
-cd Email-Spam-Detection
+cd Email-Spam-Classifier
 ```
 
 Install dependencies
