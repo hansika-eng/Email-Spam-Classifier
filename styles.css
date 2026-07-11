@@ -1,0 +1,179 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+.stApp{
+    background:#071321;
+}
+
+/* Hide Streamlit UI */
+#MainMenu{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+/* Reduce Top Space */
+.block-container{
+    max-width:1200px;
+    padding-top:1rem;
+    margin:auto;
+}
+
+/* Cards */
+
+.card{
+    background:#101B2D;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+
+    padding:14px 20px;
+    margin-bottom:14px;
+}
+
+/* Prediction Card */
+
+/* Prediction Card */
+
+.prediction-card{
+    background:#22171B;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:10px;
+    padding:18px;
+}
+
+.prediction-body{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:18px;
+    gap:20px;
+}
+
+.prediction-text{
+    flex:1;
+}
+
+.prediction-text p{
+    color:#C7C7C7;
+    margin:8px 0 25px;
+}
+
+/* Circular Progress */
+
+.circle{
+
+    --size:180px;
+
+    width:var(--size);
+    height:var(--size);
+
+    border-radius:50%;
+
+    background:
+    conic-gradient(
+        var(--color) calc(var(--progress)*1%),
+        #2d2d2d 0
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.circle-inner{
+
+    width:145px;
+    height:145px;
+
+    background:#22171B;
+
+    border-radius:50%;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.circle-inner h2{
+
+    margin:0;
+    color:white;
+    font-size:34px;
+
+}
+
+.circle-inner span{
+
+    color:#b5b5b5;
+    font-size:14px;
+
+}
+/* Statistics Cards */
+
+.stats{
+
+    background:#101B2D;
+
+    border-radius:15px;
+
+    padding:18px;
+
+    text-align:center;
+
+}
+
+/* Security */
+
+.security{
+
+    background:#25230D;
+
+    border-radius:18px;
+
+    padding:22px;
+
+}
+
+/* Title */
+.hero{
+    width:100%;
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.hero-title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    margin-bottom:8px;
+}
+
+.hero-icon{
+    font-size:50px;
+}
+
+.title{
+    font-size:50px;
+    font-weight:700;
+    color:white;
+    margin:0;
+}
+
+.subtitle{
+    color:#B5C0D6;
+    font-size:20px;
+}
